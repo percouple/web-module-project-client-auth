@@ -37,34 +37,34 @@ Each friend object has the format:
 
 ### Task 1: Project Set Up
 
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-client-auth`
-* [ ] Download project dependencies by running `npm install`
-* [ ] Run `npm start` to start the client code.
-* [ ] Your server code will run automatically, just as they do in sprint challenges.
+* [X] Create a forked copy of this project.
+* [X] Clone your OWN version of the repository in your terminal
+* [X] cd into the project base directory `cd web-module-project-client-auth`
+* [X] Download project dependencies by running `npm install`
+* [X] Run `npm start` to start the client code.
+* [X] Your server code will run automatically, just as they do in sprint challenges.
 
 ### Task 2: Project Requirements
 
 #### Build the login component
 
-* [ ] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
-* [ ] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
+* [X] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
+* [X] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
+* [X] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
 
 #### Build the friendslist component
 
-* [ ] Use the [mockup provided](./friendslist_mockup.png) to build out a simple list component made to display all friends.
-* [ ] When the component mounts, make a call to the api retrieving all friends. Remember that this is a protected route.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends`
-* [ ] In your login component, add code to your submission code the ability to redirect to your friendslist component.
+* [X] Use the [mockup provided](./friendslist_mockup.png) to build out a simple list component made to display all friends.
+* [X] When the component mounts, make a call to the api retrieving all friends. Remember that this is a protected route.
+* [X] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends`
+* [X] In your login component, add code to your submission code the ability to redirect to your friendslist component.
 
 #### Build the addFriends component
 
-* [ ] Use the [mockup provided](./addfriends_mockup.png) to build out a simple component allowing you to collect data to add in a new friend.
-* [ ] The component should include a form with inputs for each friend attribute and a submit button.
-* [ ] When submitting the form, make a call to the approprate api endpoint with your new friend data. Remember that this is a protected route.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends/add`.
+* [X] Use the [mockup provided](./addfriends_mockup.png) to build out a simple component allowing you to collect data to add in a new friend.
+* [X] The component should include a form with inputs for each friend attribute and a submit button.
+* [X] When submitting the form, make a call to the approprate api endpoint with your new friend data. Remember that this is a protected route.
+* [X] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends/add`.
 
 #### Build a logout button
 
